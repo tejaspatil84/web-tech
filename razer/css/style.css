@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+/* -----Header Start----- */
+header {
+    height: 60px;
+    width: 100%;
+    border-bottom: 0.2px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    z-index: 1;
+}
+
+.nav-bar {
+    height: 40PX;
+    width: 87%;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    line-height: 40PX;
+}
+
+.nav-bar li img {
+    height: 35px;
+    width: 35px;
+    margin-top: 3px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: medium;
+    padding: 5px 10PX;
+}
+
+.nav-bar ul li a:hover {
+    color: white;
+}
+/* -----Header End------ */
+#offer-title {
+    margin-top: 60px;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(73, 73, 73);
+}
+
+#offer-title h2 {
+    font-size: 15px;
+    font-weight: normal;
+}
+/* -----Section Start----- */
+.section{
+    height: 700px;
+    width: 100%;  
+    /* border: 1px solid black; */
+    border-bottom: 10px solid rgb(52, 51, 51);
+}
+#section-1 {
+    background: url(/images/razer-blade-15-2023-homepage-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* -----Section Title Box------ */
+.s-title-box {
+    height: 200px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.s-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 50px;
+}
+#s-title1 {
+    height: 70px;
+}
+#s-title2{
+    height: 50px;
+}
+#s-title1 h2 {
+    font-size: 55px;
+    font-weight: 550;
+
+}
+#s-title3{
+    height: 30px;
+}
+#s-title2 h4 {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+#s-title3 h5{
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+#s-t3-child1{
+    margin-right: 15px;
+}
+#s-t3-child2{
+    margin-left: 15px;
+}
+#s-title3 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+#s-title3 a::before{
+    content: "";
+    left: 0;
+    top: 100%;
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    transition: 0.5s;
+}
+#s-title3 a:hover:before{
+    width: 100%;
+}
+#s-title3 i{
+    color: yellowgreen;
+    font-weight: bolder;
+}
+/* -----Section End----- */
+#section-2 {
+    background: url(/images/deathadder-v3-pro-faker-edition-homepage-desktop1x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#section-3 {
+    background: url(/images/razer-blade-18-homepage-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* -----Div Section Start----- */
+.div-section{
+    height: 550px;
+    width: 100%;  
+    border-bottom: 10px solid rgb(52, 51, 51);
+}
+.div-s-title-box {
+    height: 170px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.d-s-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#d-s-title1 {
+    height: 60px;
+}
+#d-s-title2{
+    height: 30px;
+}
+#d-s-title1 h2 {
+    font-size: 40px;
+    font-weight: 550;
+    line-height: 40px;
+}
+#d-s-title2 h4 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+#d-s-title3{
+    height: 30px;
+    font-size: 18px;
+}
+#d-s-title3 h5{
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+#d-s-t3-child1{
+    margin-right: 15px;
+}
+#d-s-t3-child2{
+    margin-left: 15px;
+}
+#d-s-title3 a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+.d-s5-t1{
+    height: 250px;
+    color: blue;
+}
+#d-s-title3 a::before{
+    content: "";
+    left: 0;
+    top: 100%;
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    transition: 0.5s;
+}
+#d-s-title3 a:hover:before{
+    width: 100%;
+}
+#d-s-title3 i{
+    font-size: 12px;
+    color: yellowgreen;
+    font-weight: bolder;
+}
+/* ------Div Section End------ */
+
+#section-4 {
+    background: url(/images/razer-blade-16-b-950x580-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-right: 10px solid rgb(52, 51, 51);
+}
+#section-5 {
+    background: url(/images/uqcs-velocity-green-950x580-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#section-6 {
+    background: url(/images/razer-blackwidow-v4-pro-950x580-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-right: 10px solid rgb(52, 51, 51);
+}
+#section-7 {
+    background: url(/images/nbcf-partnership-b-950x580-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#section-8 {
+    background: url(/images/enkipro-lamborghini-b-950x580-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-right: 10px solid rgb(52, 51, 51);
+}
+#section-9 {
+    background: url(/images/razer-edge-b-950x580-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Footer Start */
+footer{
+    width: 100%;
+    height: 400px;
+}
+#footer1{
+    width: 80%;
+    height: 85%;
+    border-bottom: 1px solid white;
+    margin-left: 10%;
+    display: flex;
+    /* padding: 0 5px; */
+}
+.foot-d{
+    width: 20%;
+    height: 100%;
+    padding: 0 5px;
+    margin-top: 30px;
+}
+
+.foot-list{
+    width: 100%;
+    height: 90%;
+    border: 1px solid black;
+}
+
+.foot-list ul li{
+    list-style: none;
+    margin-top: 15px;
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+}
+.foot-list ul li a{
+    text-decoration: none;
+    color: rgb(141, 141, 141);
+}
+.foot-list ul li a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+#foot-list5{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse; 
+
+}
+#f-l5-ch1{
+    width: 95%;
+    height: 20px;
+}
+#f-l5-ch1 h2{
+    font-size: 15px;
+    font-weight: 100;
+    color: yellowgreen;
+    text-align: right;
+}
+#f-l5-ch1 h2 sup{
+    font-size: 10px;
+}
+#f-l5-ch2{
+    width: 50%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#f-l5-ch2 i{
+    padding: 5px;
+    color: yellowgreen;
+    border: 2px solid yellowgreen;
+    border-radius: 50%;
+}
+.f-icon{
+    padding: 5px 8px !important;
+}
+
+/* -----------Footer-2 start---------- */
+
+#footer2{
+    width: 80%;
+    height: 15%;
+    margin-left: 10%;
+    display: flex;
+}
+.f2-d{
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: 100;
+    display: flex;
+}
+.f2-d h3{
+    font-size: 13px;
+    font-weight: 100;
+    color: rgb(141, 141, 141);
+}
+.f2-d h3 a{
+    text-decoration: none;
+    color: rgb(141, 141, 141);
+}
+.f2-d h3 a:hover{
+    color: white;
+    border-bottom: 1px solid;
+}
+.f2-d p{
+    padding: 0 20px;
+}
+#f2-d2{
+    margin-left: 50px;
+}
+#f2-d6{
+    margin-left: 270px;
+}
+#f2-d6 p{
+    padding: 0 4px;
+}
+#f2-d7 i{
+    font-size: 8px;
+    margin-left: 3px;
+}
+#f2-d6 h3{
+    font-weight: 100;
+    color: white;
+}
